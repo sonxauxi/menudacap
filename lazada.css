@@ -1,0 +1,183 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: "Roboto", sans-serif;
+     font-size: 13px;
+     line-height: 27px;
+     color: #757575;
+ }
+ 
+ .trong {
+     height: 1200px;
+ }
+ 
+ ul.listmenu {
+     width: 200px;
+     height: 324px;
+     padding: 8px 0px 12px;
+     list-style: none;
+     background-color: white;
+     margin-top: 0px;
+ }
+ 
+ .listmenu {
+     text-transform: capitalize;
+ }
+ 
+ .listmenu a {
+     text-decoration: none;
+     color: #757575;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     text-align: left;
+     padding: 0 8px;
+ }
+ 
+ ul.loaitivi {
+     list-style: none;
+ }
+ 
+ ul.loaitivi a {
+     list-style: none;
+     text-decoration: none;
+     padding: 0px!important;
+ }
+ 
+ .tivi {
+     list-style: none;
+     text-transform: none;
+ }
+ 
+ .tivi a {
+     list-style: none;
+     padding: 0 8px;
+ }
+ 
+ .menuall {
+     width: 100%;
+     height: 344px;
+     margin: 195px 0 0 0;
+     padding: 0 81px;
+     background-color: #E23A49;
+     color: #757575;
+ }
+ 
+ .menu2 {
+     width: 1188px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ 
+ .fa-angle-right {
+     color: rgb(255, 255, 255);
+     text-align: right;
+     font-size: 25px;
+ }
+ 
+ .item11 {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .listmenu li:hover>a {
+     color: #f36d00
+ }
+ 
+ .listmenu li:hover .item1 {
+     color: #f36d00
+ }
+ 
+ ul.tivi {
+     width: 200px;
+     height: 344px;
+     position: absolute;
+     z-index: 1;
+     left: 281px;
+     top: 195px;
+     background-color: rgb(255, 255, 255);
+     padding: 0px;
+     display: none;
+     border-left: solid rgb(233, 233, 233) 0.1px;
+     padding-left: 8px;
+ }
+ 
+ .listmenu li:hover .tivi {
+     display: block;
+     background-color: rgb(255, 255, 255);
+ }
+ 
+ .tivi li:hover {
+     background-color: rgb(255, 255, 255);
+ }
+ 
+ .tivi li:hover>a {
+     color: #f36d00;
+ }
+ 
+ .sub-menu-1 li:hover .hidden-item-2 {
+     color: orange;
+ }
+ 
+ ul.loaitivi {
+     width: 200px;
+     height: 344px;
+     position: absolute;
+     z-index: 1;
+     left: 208px;
+     top: 0px;
+     background-color: rgb(255, 255, 255);
+     padding: 0px;
+     border-left: solid rgb(226, 226, 226) 0.1px;
+     padding-left: 8px;
+     display: none;
+ }
+ 
+ .tivi li:hover {
+     background-color: rgb(247, 247, 247);
+ }
+ 
+ .tivi li:hover>a {
+     color: #f36d00
+ }
+ 
+ .tivi li:hover .item2 {
+     color: #f36d00
+ }
+ 
+ .tivi {
+     width: 200px;
+     height: 344px;
+     position: absolute;
+     z-index: 1;
+     left: 208px;
+     top: 0px;
+     background-color: rgb(255, 255, 255);
+     padding: 0px;
+     border-left: solid rgb(226, 226, 226) 0.1px;
+     padding-left: 8px;
+     display: none;
+ }
+ 
+ .tivi a {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .tivi li:hover {
+     background-color: rgb(247, 247, 247);
+ }
+ 
+ .tivi li:hover>a {
+     color: #f36d00
+ }
+ 
+ .tivi li:hover .loaitivi {
+     display: block;
+     background-color: white;
+ }
